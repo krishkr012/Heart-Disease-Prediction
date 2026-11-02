@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # ---------------- LOAD FILES ----------------
-model = joblib.load("knn_Heart.pkl")
+model = joblib.load("KNN_Heart.pkl")
 scaler = joblib.load("scaler.pkl")
 expected_columns = joblib.load("columns.pkl")
 
